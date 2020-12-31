@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman";
+  list-style: none;
+}
+
+header {
+  background-image: url(../background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  float: right;
+  margin-top: 25px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+}
+
+ul li a:hover {
+  background-color: #00ff00;
+  color: #000;
+}
+
+.logo img {
+  float: left;
+  width: 350px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: #ff1493;
+  font-size:75px;
+  padding-left: 210px;
+}
+
+.button {
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 12px 24px;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border-radius:2px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.body {
+  background-color: #6495ad;
+}
+
+.project {
+  color: #ffff00;
+  padding-left: 250px;
+  font-size: 18px;
+}
+
+.heading {
+  padding-top: 10px;
+}
+
+.hobbies {
+  padding-top: 10px;
+  color: #800000;
+  font-size: 20px;
+}
+
+.skills {
+  padding-top: 10px;
+  color: #800000;
+  font-size: 20px;
+}
+
+.project-title {
+  padding-top: 10px;
+  color: #800000;
+  font-size: 20px;
+}
+
+.image img {
+  width: 250px;
+  height: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 35px;
+  float: right;
+}
+
+.footer {
+  background-color: #4682b4;
+  color: #000;
+  height: 50px;
+  padding: 40px 40px;
+}
+
+.footer-name {
+  float: left;
+  margin-top: 25px;
+  padding-left: 25px;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding: 5px 20px;
+}
+
+.fa {
+  margin-right: 5px;
+}
